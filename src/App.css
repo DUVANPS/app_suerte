@@ -68,12 +68,15 @@
 }
 @media (max-width: 769px) {
   .container__title{
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
   .container__phrase{
     font-size: 0.9rem;
   }
   .container__btn{
     font-size: 0.8rem;
+  }
+  body{
+    margin: 0;
   }
 }
