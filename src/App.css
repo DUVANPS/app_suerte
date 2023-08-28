@@ -55,3 +55,25 @@
   transform: scale(1.05);
   box-shadow: 0 0 0.8em rgba(0, 0, 0, 0.384);
 }
+@media (min-width: 769px) {
+  .container__title{
+    font-size: 4rem;
+  }
+  .container__phrase{
+    font-size: 2rem;
+  }
+  .container__btn{
+    font-size: 2rem;
+  }
+}
+@media (max-width: 769px) {
+  .container__title{
+    font-size: 2.4rem;
+  }
+  .container__phrase{
+    font-size: 0.9rem;
+  }
+  .container__btn{
+    font-size: 0.8rem;
+  }
+}
