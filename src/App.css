@@ -79,4 +79,13 @@
   body{
     margin: 0;
   }
+  @keyframes moveText {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(10px);
+    }
+  }
+  
 }
